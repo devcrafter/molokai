@@ -1,3 +1,5 @@
+\+ Red -> Orange
+
 Custom LineNr change - fatih
 
 # Molokai Color Scheme for Vim
