@@ -138,17 +138,17 @@ if &t_Co > 255
    if s:molokai_original == 1
       hi Normal                   ctermbg=234
       hi CursorLine               ctermbg=235   cterm=none
-      hi CursorLineNr ctermfg=208               cterm=none
+      hi CursorLineNr ctermfg=24               cterm=none
    else
       hi Normal       ctermfg=252 ctermbg=233
       hi CursorLine               ctermbg=234   cterm=none
-      hi CursorLineNr ctermfg=208               cterm=none
+      hi CursorLineNr ctermfg=24               cterm=none
    endif
    hi Boolean         ctermfg=135
    hi Character       ctermfg=144
    hi Number          ctermfg=135
    hi String          ctermfg=144
-   hi Conditional     ctermfg=208               cterm=bold
+   hi Conditional     ctermfg=24               cterm=bold
    hi Constant        ctermfg=135               cterm=bold
    hi Cursor          ctermfg=16  ctermbg=253
    hi Debug           ctermfg=225               cterm=bold
@@ -168,11 +168,11 @@ if &t_Co > 255
    hi FoldColumn      ctermfg=67  ctermbg=16
    hi Folded          ctermfg=67  ctermbg=16
    hi Function        ctermfg=118
-   hi Identifier      ctermfg=208               cterm=none
+   hi Identifier      ctermfg=24               cterm=none
    hi Ignore          ctermfg=244 ctermbg=232
    hi IncSearch       ctermfg=193 ctermbg=16
 
-   hi keyword         ctermfg=208               cterm=bold
+   hi keyword         ctermfg=24               cterm=bold
    hi Label           ctermfg=229               cterm=none
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=81
@@ -180,7 +180,7 @@ if &t_Co > 255
    hi MatchParen      ctermfg=233  ctermbg=208 cterm=bold
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
-   hi Operator        ctermfg=208
+   hi Operator        ctermfg=24
 
    " complete menu
    hi Pmenu           ctermfg=81  ctermbg=16
@@ -191,12 +191,12 @@ if &t_Co > 255
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
    hi Question        ctermfg=81
-   hi Repeat          ctermfg=208               cterm=bold
+   hi Repeat          ctermfg=24               cterm=bold
    hi Search          ctermfg=0   ctermbg=222   cterm=NONE
 
    " marks column
    hi SignColumn      ctermfg=118 ctermbg=235
-   hi SpecialChar     ctermfg=208               cterm=bold
+   hi SpecialChar     ctermfg=24               cterm=bold
    hi SpecialComment  ctermfg=245               cterm=bold
    hi Special         ctermfg=81
    if has("spell")
@@ -205,12 +205,12 @@ if &t_Co > 255
        hi SpellLocal              ctermbg=17
        hi SpellRare  ctermfg=none ctermbg=none  cterm=reverse
    endif
-   hi Statement       ctermfg=208               cterm=bold
+   hi Statement       ctermfg=24               cterm=bold
    hi StatusLine      ctermfg=238 ctermbg=253
    hi StatusLineNC    ctermfg=244 ctermbg=232
-   hi StorageClass    ctermfg=208
+   hi StorageClass    ctermfg=24
    hi Structure       ctermfg=81
-   hi Tag             ctermfg=208
+   hi Tag             ctermfg=24
    hi Title           ctermfg=166
    hi Todo            ctermfg=231 ctermbg=232   cterm=bold
 
@@ -235,7 +235,7 @@ if &t_Co > 255
    if exists("g:rehash256") && g:rehash256 == 1
        hi Normal       ctermfg=252 ctermbg=234
        hi CursorLine               ctermbg=236   cterm=none
-       hi CursorLineNr ctermfg=208               cterm=none
+       hi CursorLineNr ctermfg=24               cterm=none
 
        hi Boolean         ctermfg=141
        hi Character       ctermfg=222
@@ -251,7 +251,7 @@ if &t_Co > 255
        hi Exception       ctermfg=154               cterm=bold
        hi Float           ctermfg=141
        hi Function        ctermfg=154
-       hi Identifier      ctermfg=208
+       hi Identifier      ctermfg=24
 
        hi Keyword         ctermfg=197               cterm=bold
        hi Operator        ctermfg=197
